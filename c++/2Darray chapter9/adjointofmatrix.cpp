@@ -8,8 +8,8 @@ int main(){
     arr[1][0]= 4;
     arr[1][1]= 3;
     arr[1][2]= 5;
-    for(int i=0;i<2;i++){
-        for(int j=0;j<3;j++){
+    for(int j=0;j<3;j++){  //j=>column
+        for(int i=0;i<2;i++){   //i=>row
             cout<<arr[i][j]<<"  ";
         }
         cout<<endl;
